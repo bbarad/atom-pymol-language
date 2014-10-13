@@ -1,0 +1,30 @@
+'fileTypes': [
+  'py2pml'
+]
+'name': 'Py2pml'
+'patterns': [
+  {
+    'begin': '"""'
+    'beginCaptures':
+      '0':
+        'name': 'string.quoted.double.py2pml'
+    'end': '"""'
+    'endCaptures':
+      '0':
+        'name': 'string.quoted.double.py2pml'
+    'name': 'meta.pymol.py2pml'
+    'patterns': [
+      {
+        'match': '(?i:%(\\([a-z_]+\\))?#?0?\\-?[ ]?\\+?([0-9]*|\\*)(\\.([0-9]*|\\*))?[hL]?[a-z%])'
+        'name': 'constant.other.placeholder.pymol'
+      }
+      {
+        'include': 'source.pymol'
+      }
+    ]
+  }
+  {
+    'include': 'source.python'
+  }
+]
+'scopeName': 'source.py2pml'
