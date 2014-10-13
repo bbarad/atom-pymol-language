@@ -1,14 +1,13 @@
 {
   "name": "language-pymol",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Syntax Highlighting and other tools for working with Pymol Scripting. More information on Pymol can be found at http://www.pymol.org/",
   "repository": "https://github.com/bbarad/atom-pymol-language",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "bugs": {
     "url": "https://github.com/bbarad/atom-pymol-language/issues"
   }
