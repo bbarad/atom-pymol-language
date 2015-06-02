@@ -1,4 +1,7 @@
 
+## 0.3.0 - Actual update
+* Mistake with apm publish led to this being the released version, which is identical to the planned 0.2.0.
+
 ## 0.2.0 - Update to 1.0 API 
 
 **Published June 2, 2015**
